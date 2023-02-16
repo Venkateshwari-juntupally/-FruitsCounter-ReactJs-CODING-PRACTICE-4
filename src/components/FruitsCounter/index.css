@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  background-color: #ffd569;
+  margin: 20px;
+  background-size: cover;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background-color: #ffffff;
+  margin: 30px;
+  padding: 10px;
+  width: 100vw;
+}
+.mango-img {
+  width: 300px;
+  height: 300px;
+}
+.banana-img {
+  width: 300px;
+  height: 300px;
+}
+.heading {
+  margin: 10px;
+  padding: 10px;
+}
+.button {
+  background-color: #007bff;
+  border: solid 1px #007bff;
+  padding: 10px;
+  border-radius: 10px;
+  color: #ffffff;
+  margin: 10px;
+}
+.count {
+  color: #ffd569;
+}
+.mango-banana {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .mango-banana {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.fruit-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
